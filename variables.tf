@@ -50,6 +50,11 @@ variable "lambda_at_edge" {
   default     = false
 }
 
+variable "code_hash" {
+  type = string
+  default = null
+}
+
 variable "function_name" {
   description = "A unique name for your Lambda Function"
   type        = string
